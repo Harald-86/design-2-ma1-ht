@@ -24,8 +24,14 @@ nav a {
   letter-spacing: 3px;
 }
 
-footer {
-  h2 {
-    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
-  }
+.credit {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
+  letter-spacing: 2px;
+  border: 1px solid $secondary;
+  width: fit-content;
+  padding: 0.2rem;
+  margin-top: 5px;
 }
