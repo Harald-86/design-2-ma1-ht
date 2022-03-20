@@ -123,7 +123,8 @@ footer {
 }
 
 .col-two,
-.col-three {
+.col-three,
+.col-copy {
   border-radius: 5px;
   height: 272px;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
@@ -131,8 +132,7 @@ footer {
   -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
 }
 
-.col-copy,
-.col-logo {
+.col-copy {
   background-color: #fff;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -140,6 +140,10 @@ footer {
 
 .col-copy {
   padding-top: 10px;
+}
+
+.big-logo {
+  background: transparent;
 }
 
 nav {
@@ -152,10 +156,8 @@ nav {
 .logo {
   height: 35px;
   width: 35px;
-  margin-right: 10px;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
-  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
-  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  margin-right: 20px;
+  background: transparent;
 }
 
 svg {
