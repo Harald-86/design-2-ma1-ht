@@ -1,0 +1,110 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: repeating-linear-gradient(90deg, #ffffff, #ffffff 5px, #eaeaee 10px, #eaeaee 10px);
+  margin: 0;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+/*  */
+
+footer {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 0.5em;
+  text-transform: uppercase;
+  background: radial-gradient($primary, #602370);
+  margin-top: 10px;
+}
+
+.col-copy {
+  min-height: 272px;
+  font-family: "robot", sans-serif;
+  h3 {
+    color: $primary;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
+  }
+}
+
+.col-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.col-one {
+  background-image: url(../../images/paper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  border-radius: 15px; */
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  margin-bottom: 20px;
+  h1,
+  h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
+    color: $primary;
+    text-decoration: underline $secondary;
+    letter-spacing: 3px;
+  }
+  h2 {
+    color: #000 !important;
+  }
+}
+.col-two {
+  background-image: url(../../images/pexels-cottonbro.jpg);
+}
+
+.col-three {
+  background-image: url(../../images/tnarg.jpg);
+}
+.col-two,
+.col-three {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: bottom;
+  background-position-x: center;
+  margin-bottom: 20px;
+
+  p {
+    color: $secondary;
+  }
+}
+.col-two,
+.col-three {
+  border-radius: 5px;
+  height: 272px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.32);
+}
+
+.col-copy,
+.col-logo {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.col-copy {
+  padding-top: 10px;
+}

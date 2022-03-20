@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;700&family=Roboto+Serif:wght@400;700&display=swap");
+
+h1,
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+
+body {
+  font-family: "Roboto Serif", serif;
+}
+
+nav a {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: $primary;
+  letter-spacing: 3px;
+}
+
+footer {
+  h2 {
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.33);
+  }
+}
